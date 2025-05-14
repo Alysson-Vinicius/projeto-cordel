@@ -76,10 +76,12 @@ section.imagem {
 }
 
 section#img01 {
+    min-width: 250px;
     background-image: url("imagens/background001.jpg");
 }
 
 section#img02 {
+    min-width: 250px;
     background-image: url("imagens/background002.jpg");
 }
 
