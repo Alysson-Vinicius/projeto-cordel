@@ -71,18 +71,32 @@ section.imagem {
     color: white;
     background-position: center;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: repeat;
     box-shadow: inset 6px 6px 13px rgb(0, 0, 0, 0.459);
 }
 
 section#img01 {
     min-width: 250px;
-    background-image: url("imagens/background001.jpg");
+    background-image: url("imagens/flor.jpg");
 }
 
 section#img02 {
     min-width: 250px;
-    background-image: url("imagens/background002.jpg");
+    background-image: url("imagens/praia01.jpg");
+}
+
+p.referencia {
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: white;
+}
+
+p.referencia > a {
+    text-decoration: none;
+    color: black;
 }
 
 section.imagem > p {
