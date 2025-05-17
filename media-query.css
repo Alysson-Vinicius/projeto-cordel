@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 600px) {
+
+    section#img01 {
+        background-image: url("imagens/flor01.jpg");
+        background-size: cover;
+        }
+
+    section#img02 {
+        background-image: url("imagens/praia01.jpg");
+        background-size: cover;
+        }
+}  
+
